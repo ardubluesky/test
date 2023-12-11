@@ -3,7 +3,7 @@ var greetMsgEl = document.getElementById("greet-msg");
 
 async function greet() {
   var name = greetInputEl.value;
-  
+
   greetMsgEl.textContent = "hello there "+name+"! welcome to this app.";
 
 }
