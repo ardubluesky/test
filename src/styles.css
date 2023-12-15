@@ -39,6 +39,11 @@
   justify-content: center;
 }
 
+.column {
+  display: grid;
+  justify-content: center;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -85,7 +90,9 @@ button {
 }
 
 #greet-input {
-  margin-right: 5px;
+  align-self: center;
+  display: grid;
+  margin: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -102,6 +109,7 @@ button {
   button {
     color: #ffffff;
     background-color: #0f0f0f98;
+    display: grid;
   }
   button:active {
     background-color: #0f0f0f69;
